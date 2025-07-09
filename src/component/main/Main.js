@@ -20,19 +20,19 @@ const{onSent,recentPrompt,showResult,loading,resultData,setInput,input}=useConte
                 <p>How can i help you today</p>
             </div>
             <div className="cards">
-                <div className="card">
+                <div className="card" onClick={()=>onSent()}>
                     <p>Suggest beautiful places to see on an upcoming road trip</p>
                     <img  src={assets.compass_icon} alt=''/> 
                 </div>
-                <div className="card">
+                <div className="card" onClick={()=>onSent()}>
                     <p>Briefly summarize this concept: urban planning</p>
                     <img  src={assets.bulb_icon} alt=''/> 
                 </div>
-                <div className="card">
+                <div className="card" onClick={()=>onSent()}>
                     <p>Brainstorm team bonding activities for our work retreat</p>
                     <img  src={assets.message_icon} alt=''/> 
                 </div>
-                <div className="card">
+                <div className="card" onClick={()=>onSent()}>
                     <p>Tell me about React js and React native</p>
                     <img  src={assets.code_icon} alt=''/> 
                 </div>

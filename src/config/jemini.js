@@ -9,8 +9,8 @@ import{
     HarmBlockThreshold,
   } from "@google/generative-ai" 
   
-  const MODEL_NAME = "gemini-1.5-pro-latest";
-  const API_KEY = "AIzaSyDtfBEDI1-dlZcb3qQiOfdZNq9i6w5qBOo";
+  const MODEL_NAME = "gemini-2.5-pro";
+  const API_KEY = "AIzaSyDlnXGqC01latbLPl9bWJnLt45TDArJVPE";
   
   async function runChat(prompt) {
     const genAI = new GoogleGenerativeAI(API_KEY);
